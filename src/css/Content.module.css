@@ -1,0 +1,30 @@
+.content{
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 2rem;
+}
+
+.content p{
+  margin: 2rem auto;
+  font-family: 'Open Sans', Courier, monospace;
+  max-width: 50rem;
+}
+
+.content span{
+  color: #6179fc;
+  font-weight: bold;
+}
+
+.start{
+  background-color: #3345ac;
+  padding: 1rem 2rem;
+  border-radius: .3rem;
+  border: none;
+  cursor: pointer;
+  font: bold 2rem 'Orbitron';
+  transition: .3s;
+}
+
+.start:hover{
+  background-color: #455ff0;
+}

@@ -1,8 +1,11 @@
-# React + Vite
+# Busca Cep
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto meu tentando aprender fetch API entre outros enquanto estudo React.js
 
-Currently, two official plugins are available:
+# Tarefas para mim Mesmo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1 - Criar uma sessão que explica o que é e qual a função da aplicação web
+2 - Criar um Formulário pronto para receber as informações do usuario e enviar para a API
+3 - Estilizar a aplicação por completo
+4 - Aplicar Responsividade
+5 - Publicar a Aplicação
