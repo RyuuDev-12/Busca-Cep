@@ -9,7 +9,7 @@ export default function Header(){
         <h2>Busca Cep</h2>
       </div>
       <nav>
-        <a target="_blank" rel='noreferrer' href="https://github.com/ryuudev-12">
+        <a target="_blank" rel='noreferrer' href="https://github.com/RyuuDev-12/Busca-Cep">
           <FaGithub className={navIcon}/>
         </a>
       </nav>

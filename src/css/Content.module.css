@@ -16,6 +16,7 @@
 }
 
 .start{
+  width: max-content;
   background-color: #3345ac;
   padding: 1rem 2rem;
   border-radius: .3rem;
@@ -23,6 +24,8 @@
   cursor: pointer;
   font: bold 2rem 'Orbitron';
   transition: .3s;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 .start:hover{

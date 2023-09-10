@@ -1,11 +1,12 @@
 import {content, start} from '../css/Content.module.css'
+import {Link} from 'react-router-dom'
 
 export default function Content(){
   return (
     <section className={content}>
-      <h1>Busca Cep</h1>
+      <h1>Busca Cep</h1> 
       <p>Não sabe o seu CEP? Veio ao lugar certo!</p>
-      <button className={start}>iniciar</button>
+      <Link to="/form" className={start}>iniciar</Link>
       <p>
         Muitas pessoas não lembram o próprio CEP pelo 
         simples fato de usarmos raramente no dia a dia, 
