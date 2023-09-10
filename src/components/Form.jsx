@@ -26,7 +26,7 @@ export default function Form(){
   return (
     <section>
       <form onSubmit={buscar}>
-        <Link to="/" className={start}>Voltar</Link>
+        <Link to="/Busca-Cep" className={start}>Voltar</Link>
         <Input
           handleOnChange={(e)=>{setValue(e.target.value)}}
           type="number"
