@@ -15,7 +15,7 @@ export default function Form(){
       alert('CEP Inválido')
     }
 
-    fetch(`https://viacep.com.br/ws/45051040/json`)
+    fetch(`https://viacep.com.br/ws/${value}/json`)
     .then((resp) => resp.json())
     .then((data) => {
       setResult(data)
