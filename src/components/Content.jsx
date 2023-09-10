@@ -6,7 +6,7 @@ export default function Content(){
     <section className={content}>
       <h1>Busca Cep</h1> 
       <p>Não sabe o seu CEP? Veio ao lugar certo!</p>
-      <Link to="/form" className={start}>iniciar</Link>
+      <Link to="/Busca-Cep/form" className={start}>iniciar</Link>
       <p>
         Muitas pessoas não lembram o próprio CEP pelo 
         simples fato de usarmos raramente no dia a dia, 
