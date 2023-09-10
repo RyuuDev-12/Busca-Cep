@@ -13,8 +13,8 @@ function App() {
       <Header/>
       <Router>
         <Routes>
-          <Route exact path='/Busca-Cep' element={<Content/>}/>
-          <Route path='/form' element={<Form/>}/>
+          <Route path="/Busca-Cep/" element={<Content/>}/>
+          <Route path="/Busca-Cep/form" element={<Form/>}/>
         </Routes>
       </Router>
       <Footer/>
