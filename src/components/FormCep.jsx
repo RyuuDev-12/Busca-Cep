@@ -18,7 +18,7 @@ export default function FormCep(){
     .then((resp) => resp.json())
     .then((data) => {
       setResult(data[0].cep)
-    })
+    }).catch(() => alert('Endereço inválido, verifique e tente novamente'))
   }
 
   const copy = async () => {

@@ -11,16 +11,16 @@ export default function Form(){
 
   function buscar(event){
     event.preventDefault()    
-    if(value.length != 8){
-      alert('CEP Inválido')
-    }
 
     fetch(`https://viacep.com.br/ws/${value}/json`)
     .then((resp) => resp.json())
     .then((data) => {
+      if(data.bairro == undefined){
+        alert('CEP não encontrado!')
+      }
       setResult(data)
     })
-    .catch(err => console.log(err))
+    .catch(err => alert('Número de CEP inválido, verifique e tente novamente', err))
   }
 
   return (
