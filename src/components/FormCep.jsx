@@ -27,9 +27,9 @@ export default function FormCep(){
   }
 
   return (
-    <>
+    <section>
       <Link className={`${btns} ${voltar}`} to="/Busca-Cep">Voltar</Link>
-      <section className={resultClass}>
+      <div className={resultClass}>
         <form onSubmit={(e)=>{search(e)}}>
           <Input
             type="text"
@@ -57,7 +57,7 @@ export default function FormCep(){
             <button className={btns} onClick={copy}>Copiar</button>
           </div>
         )}
-      </section>
-    </>
+      </div>
+    </section>
   )
 }
