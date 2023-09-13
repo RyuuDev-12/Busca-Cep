@@ -15,7 +15,7 @@
   font-weight: bold;
 }
 
-.start{
+.btns{
   width: max-content;
   background-color: #3345ac;
   padding: 1rem 2rem;
@@ -28,6 +28,14 @@
   margin: 0 auto;
 }
 
-.start:hover{
+.btns:hover{
   background-color: #455ff0;
+}
+
+section > div{
+  display: flex;
+  max-width: max-content;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
 }

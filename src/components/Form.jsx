@@ -1,5 +1,5 @@
 import '../css/Form.module.css'
-import {start} from '../css/Content.module.css'
+import {btns} from '../css/Content.module.css'
 import {resultClass} from '../css/Form.module.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
@@ -26,14 +26,14 @@ export default function Form(){
   return (
     <section>
       <form onSubmit={buscar}>
-        <Link to="/Busca-Cep" className={start}>Voltar</Link>
+        <Link to="/Busca-Cep" className={btns}>Voltar</Link>
         <Input
           handleOnChange={(e)=>{setValue(e.target.value)}}
           type="number"
           name="CEP"
           placeholder="Digite seu CEP"
         />
-        <input type="submit" value="Buscar" className={start}/>
+        <input type="submit" value="Buscar" className={btns}/>
       </form>
         {result &&(
           <div className={resultClass}>

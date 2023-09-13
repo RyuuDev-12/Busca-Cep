@@ -13,3 +13,14 @@
 html{font-size: 62.5%;}
 
 body{background-color: #12183b;}
+
+@keyframes slide {
+  0%{
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
