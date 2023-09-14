@@ -2,10 +2,6 @@
 
 Este é um projeto meu tentando aprender fetch API entre outros enquanto estudo React.js
 
-# Tarefas para mim Mesmo
+Você pode acessar o deploy <a href="https://ryuudev-12.github.io/Busca-Cep">Aqui</a>
 
-1 - Criar uma sessão que explica o que é e qual a função da aplicação web
-2 - Criar um Formulário pronto para receber as informações do usuario e enviar para a API
-3 - Estilizar a aplicação por completo
-4 - Aplicar Responsividade
-5 - Publicar a Aplicação
+![image](https://github.com/RyuuDev-12/Busca-Cep/assets/88930646/eb0e34f2-2dd9-492d-9f2c-783dccf15a56)
